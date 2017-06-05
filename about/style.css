@@ -1,0 +1,143 @@
+
+*{
+  box-sizing: border-box;
+}
+* {
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+  }
+
+  body{
+    background-color:#f2f1e8;
+    }
+
+    form{
+
+    }
+  nav {
+    background-color: white;
+    display: flex;
+    padding-bottom: 25px;
+  	color: black;
+  	font-size: 18px;
+  	text-align: center;
+    word-spacing: 50px;
+  }
+
+  h1{
+    padding-top: 20px;
+  }
+
+
+  .links{
+    font-size: 15px;
+    padding-top: 24px;
+    padding-left: 442px;
+    text-align: center;
+  }
+
+  #logo{
+    background-image: url(../images/bent-creek-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+
+h2{
+  color: #2b2f26;
+  font-weight: normal;
+  font-family: "merriweather";
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+a {
+	font-family: 'Roboto', sans-serif;
+	margin: 0 10px;
+	text-align: center;
+}
+
+a:link{
+  color: #6a6b62;
+}
+
+a:active{
+  color:#aa9072;
+}
+
+aside{
+  display: flex;
+  flex-wrap: wrap;
+  background-image:url("../images/background-1.jpg");
+  background-size: contain;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-repeat: no-repeat;
+}
+
+.aside-image{
+  background-repeat: no-repeat;
+  padding: 25px;
+  float: right;
+}
+
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .birdhouse{
+    float: left;
+    margin: 20px;
+    padding: 50px;
+    background-image: url(../images/birdhouse.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+
+  .birdtext{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+.mission{
+  color: lightgray;
+  font-weight: lighter;
+  border-left-style: solid;
+}
+footer {
+	background-color: #2b2f26;
+	color: white;
+	padding: 10px 0;
+	text-align: left;
+	width: 100%;
+}
+
+.room-to-grow{
+  align-items: center;
+  color: white;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-image: url(../images/background-3.jpg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+table, th, td, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
