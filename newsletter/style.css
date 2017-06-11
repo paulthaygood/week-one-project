@@ -1,7 +1,4 @@
 
-*{
-  box-sizing: border-box;
-}
 * {
     background: transparent;
     border: 0;
@@ -22,6 +19,12 @@
     word-spacing: 50px;
   }
 
+  form {
+    display: flex;
+    flex-direction: column;
+  	width: 100%;
+  }
+
   .links{
     font-size: 15px;
     padding-top: 24px;
@@ -33,9 +36,13 @@
     background-image: url(../images/bent-creek-logo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    padding-left: 15px;
+    padding-left: 18px;
     padding-right: 15px;
-    position: relative;
+    padding-bottom: 13px;
+  }
+
+  h1{
+    padding-top: 20px;
   }
 
 .container {
@@ -43,16 +50,19 @@
   background-image: url('../images/background-2.jpg');
 	background-size: cover;
 	height: 100%;
+  padding-bottom: 180px;
 }
 
 .contact-form {
   padding-top: 45px;
-  padding-bottom: 191px;
   background-color: white;
-	margin: 0 auto;
+	margin-left:292px;
   text-align: center;
 	width: 50%;
+  margin-bottom: 55px;
+
 }
+
 
 h2{
   font-family: 'Merriweather', serif;
@@ -62,12 +72,11 @@ h2{
 
 h3{
   padding-top: 15px;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
   font-family: 'Merriweather', serif;
   font-size: 20px;
   font-weight: lighter;
 }
-
 
 a {
 	font-family: 'Roboto', sans-serif;
@@ -84,13 +93,48 @@ a:active{
 }
 
 
-form {
-	width: 100%;
-}
-
-
 input {
 	font-family: 'Roboto', sans-serif;
 	margin: 10px 0;
-	width: 75%;
+
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+#signupButton{
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #F2F1E8;
+  background-color: #968772;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-bottom: 35px;
+
+}
+
+#nameInput{
+  border-bottom: 2px solid #968772;
+  font-size: 25px;
+  margin-left:25px;
+  margin-right:25px;
+  margin-bottom:25px;
+
+
+}
+
+#emailInput{
+  border-bottom: 2px solid #968772;
+  font-size: 25px;
+  margin-left:25px;
+  margin-right:25px;
+  margin-bottom:20px;
+
 }
