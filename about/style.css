@@ -75,22 +75,19 @@
     font-weight:lighter;
 }
 
-  a{
+  nav a{
+    color:#968772;
 	  font-family: 'Roboto', sans-serif;
 	  margin: 0 10px;
 	  text-align: center;
 }
 
-  a.link{
-    color: #6a6b62;
+a{
+  color:#968772;
 }
 
-  a.active{
-    color:#aa9072;
-}
 
   p{
-
     font-size: 25px;
   }
 
@@ -107,13 +104,13 @@
   .birdtext{
     margin-left: 200px;
     font-size: 25px;
-    }
+  }
 
   .vertical-line{
     display:flex;
     flex-wrap:wrap;
-    border-left: solid #2b2f26;
-    }
+    border-left: solid #968772;
+  }
 
   .mission{
     font-style: italic;
@@ -123,11 +120,10 @@
     margin-left: 38px;
     font-weight: lighter;
 
-}
-
-
+  }
 
   aside{
+    margin-left:2px;
     margin-top: 90px;
     display: flex;
     flex-wrap: wrap;
@@ -160,9 +156,11 @@
   }
 
   .room-to-grow{
+  font-weight:normal;
+  font-family: 'Merriweather', serif;
   font-size:60px;
   justify-content: center;
-  color: white;
+  color: #F2F1E8;
   display:flex;
   flex-wrap: wrap;
   margin-top: 35px;
@@ -187,6 +185,8 @@ td{
   padding:15px;
 }
 
+
+
   .section-two{
     margin-left: 120px;
     margin-right: 120px;
@@ -203,4 +203,8 @@ td{
 
   .history{
     padding-top: 30px;
+  }
+
+  .facilities{
+    margin-right: 90px;
   }
